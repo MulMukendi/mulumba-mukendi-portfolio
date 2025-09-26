@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mulumba Calculator</title>
+</head>
+<body>
+        <div id="calculator">
+
+                <div class="row" id="row1">
+                    <input id="screen" type="text" readonly>
+                </div>
+
+            <div id="buttons">
+                
+                <div class="row" id="row2">
+                    <button onclick="append('7')">7</button>
+                    <button onclick="append('8')">8</button>
+                    <button onclick="append('9')">9</button>
+                    <button class="operation" onclick="append('+')">+</button>
+                </div>
+                
+                <div class="row" id="row3">
+                    <button onclick="append('4')">4</button>
+                    <button onclick="append('5')">5</button>
+                    <button onclick="append('6')">6</button>
+                    <button class="operation" onclick="append('-')">-</button>
+                </div>
+                
+                <div class="row" id="row4">
+                    <button onclick="append('1')">1</button>
+                    <button onclick="append('2')">2</button>
+                    <button onclick="append('3')">3</button>
+                    <button class="operation" onclick="append('*')">*</button>
+                </div>
+                
+                <div class="row" id="row5">
+                    <button onclick="append('0')">0</button>
+                    <button onclick="append('.')">.</button>
+                    <button class="operation" onclick="append('/')">/</button>
+                    <button class="operation" onclick="calculate()">=</button> 
+                </div>
+                <button  onclick="clearScreen()">C</button>
+                
+            </div>
+        </div>
+        
+
+        <script src="script.js"></script>
+</body>
+</html>
