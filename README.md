@@ -19,6 +19,10 @@
 - **Tech:** ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white), ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white), ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 - A simple calculator with additon, subtraction, division, multiplication, clearing screen and append to screen capabilities.
 
+### 3. Pokemon RESTful API
+- **Tech:** ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white), ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white), ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+- A program to fetch and display pokemon sprites from PokeAPI (RESTful)
+
 ## 🛠 Tech Stack
 - Languages: **Java, JavaScript, HTML, CSS**
 - Frameworks: ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB), ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white), Tailwind CSS
