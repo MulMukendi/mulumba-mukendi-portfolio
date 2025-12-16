@@ -1,0 +1,51 @@
+[
+    {
+        "name"      : "Spalding BasketBall",
+        "price"     : 50,
+        "available" : true,
+        "imageUrl" : "/spaldingnbaball.jpg"
+    },
+    {
+        "name"      : "Black T",
+        "price"     : 10,
+        "available" : true,
+        "imageUrl" : "blackT.jpg"
+    },
+    {
+        "name"      : "Pink Headset",
+        "price"     : 25,
+        "available" : true,
+        "imageUrl" : "/pinkheadsets.jpg"
+    },
+    {
+        "name"      : "Brown Leather Bag",
+        "price"     : 60,
+        "available" : true,
+        "imageUrl" : "/brownbag.jpg"
+    },
+    {
+        "name"      : "Red Vans",
+        "price"     : 45,
+        "available" : true,
+        "imageUrl" : "/redvans.jpg"
+    },
+    {
+        "name"      : "Pink JBL Speaker",
+        "price"     : 50,
+        "available" : true,
+        "imageUrl" : "/jblspeaker.jpg"
+    },
+    {
+        "name"      : "Mens white T",
+        "price"     : 15,
+        "available" : true,
+        "imageUrl" : "/whiteT.jpg"
+    },
+    {
+        
+        "name"      : "Red Nike (mesh)",
+        "price"     : 20,
+        "available" : true,
+        "imageUrl" : "/nikonimage.jpg"
+    }
+]
