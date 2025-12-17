@@ -1,0 +1,38 @@
+/* Reset margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make page take full screen */
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body{
+  background-color: rgb(8, 32, 61);
+  background-image: url("/background-images/landscape.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bottom-section{
+  position: relative;
+  font-size: 1.5rem;
+      
+}
+
+#humidity-section{
+  height: 100%;
+  
+}
+
+#temp{
+  padding-left: 2.4rem;
+}
+

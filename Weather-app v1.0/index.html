@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="./dist/output.css">
+
+    <title>Weather app</title>
+</head>
+<body class="flex items-center justify-center ">
+    
+
+
+    <!-- MAIN CONTAINER -->
+    <div id="main-container" class=" flex flex-col  w-128 h-144 rounded-3xl bg-white/30 backdrop-blur-md">
+
+        <!-- TOP SECTION -->
+        <div id="top-section" class="sections  h-[13%] flex flex-row justify-center items-center">
+
+            <input type="text" id="theCity" placeholder="Search any city or postal code.." class="pl-4 h-[60%] w-[83%] rounded-2xl placeholder-gray-500 text-gray-500">
+
+            <button onclick="init()" class="search-icon w-[8%] ml-2">
+                <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6" >
+                <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /> 
+                </svg>
+            </button>
+            
+
+        </div>
+
+
+        <!-- MIDDLE SECTION -->
+        <div id="middle-section" class="sections flex flex-col h-[60%] justify-center items-center text-white-700 height ">
+
+            <img id="weather-sprite" src="weather-sprites/full-moon.png" alt="placeholder sprite" class="h-[35%]">
+            <p id="precipitation"></p>
+            <p id="temp" class="text-8xl">0°</p>
+            <p id="city-name" class=""></p>
+
+        </div>
+
+        <!-- BOTTOM SECTION -->
+        <div id="bottom-section" class=" flex flex-row sections h-[35%] text-white-700">
+
+            <div id="humidity-section" class="sections w-[50%]  flex flex-col justify-center items-center">
+                <p id="humidity-value">0%</p>
+                <p>Humidity</p>
+            </div>
+            
+            <div id="speed-section" class="sections w-[50%] flex flex-col justify-center items-center">
+                <p id="wind-speed">0km/h</p>
+                <p>Wind Speed</p>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
