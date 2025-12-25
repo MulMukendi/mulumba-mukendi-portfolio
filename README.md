@@ -1,34 +1,86 @@
 # Mulumba Mukendi 🚀
-*Aspiring Full-Stack Developer | JavaScript, React & Next.js Enthusiast*
+**Full-Stack Developer | React & Next.js | Systems Programming**
+
+---
 
 ## 👨‍💻 About Me
-- 🌱 Currently learning **JavaScript → React → Next.js**
-- 🎯 Goal: Build real-world apps like *Instagram* or *Uber*
-- 💡 Passionate about problem solving, web development, and creating useful tools
-- 📍 Based in South Africa
+I’m a Computer Science student based in South Africa with hands-on experience building real-world applications. My work spans **frontend development**, **API integration**, and **low-level systems programming**, giving me a strong foundation to tackle diverse technical challenges.
 
-- ## 📂 Projects
+I focus on creating applications that are functional, maintainable, and user-friendly, while applying best practices in **state management**, **error handling**, and **logic-driven UI**.
 
-### 1. ATM Project
-- **Tech:** ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white), ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white), ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-- A simple simulation of an ATM where users can check balance, withdraw, deposit and transfer.
-- Has user validation.
-- Intermediate version makes use of the fetch API.
+- 🌱 Technologies: **JavaScript, React, Next.js, Assembly**
+- 🎯 Focus: Building scalable applications with robust frontend logic and backend integration
+- 💡 Interests: Problem-solving, system logic, and software–hardware interaction
 
-### 2. Calculator App
-- **Tech:** ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white), ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white), ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-- A simple calculator with additon, subtraction, division, multiplication, clearing screen and append to screen capabilities.
+---
 
-### 3. Pokemon RESTful API
-- **Tech:** ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white), ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white), ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-- A program to fetch and display pokemon sprites from PokeAPI (RESTful)
+## ⭐ Highlighted Projects
+
+### 1. React ATM Application
+**Tech:** React, JavaScript, CSS
+
+A full-featured ATM simulation demonstrating advanced frontend logic and state management.
+
+**Key Features:**
+- User authentication and validation
+- Deposit and withdrawal with transaction fees
+- Controlled inputs and immutable state updates
+- Error handling and success feedback
+- Clear navigation and user flow
+
+**Skills Demonstrated:** Advanced React state management, props handling, real-world debugging and application logic.
+
+---
+
+### 2. Weather Application
+**Tech:** JavaScript, REST API, HTML, CSS
+
+A dynamic weather app fetching real-time data from a public API and displaying it in a responsive interface.
+
+**Key Features:**
+- Async data fetching from a public API
+- Input validation and error handling
+- Dynamic UI updates based on API responses
+
+**Skills Demonstrated:** Asynchronous programming, API integration, frontend data handling, responsive UI.
+
+---
+
+### 3. Assembly Circuit Control Project
+**Tech:** Assembly, MPLAB, Proteus
+
+Designed a digital circuit in Proteus and wrote an Assembly program to control it, demonstrating low-level programming and system interaction.
+
+**Key Features:**
+- Custom circuit design in Proteus
+- Low-level hardware control using Assembly
+- Direct register and I/O manipulation
+
+**Skills Demonstrated:** Systems-level programming, hardware-software integration, low-level logic, problem-solving.
+
+---
 
 ## 🛠 Tech Stack
-- Languages: **Java, JavaScript, HTML, CSS**
-- Frameworks: ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB), ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white), Tailwind CSS
-- Tools: ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white), ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white), ![VS Code](https://img.shields.io/badge/VS%20Code-0078D4?style=flat&logo=visualstudiocode&logoColor=white)
-- Databases: MySQL, Apache Derby
+
+**Languages:**  
+Java, JavaScript, HTML, CSS, Assembly
+
+**Frameworks & Libraries:**  
+React, Next.js (learning), Tailwind CSS
+
+**Tools:**  
+Git, GitHub, VS Code, MPLAB, Proteus
+
+**Databases:**  
+MySQL, Apache Derby
+
+---
 
 ## 📫 Contact
-GitHub: [MulMukendi](https://github.com/MulMukendi)
-Email: mulmukendi@gmail.com
+- GitHub: [MulMukendi](https://github.com/MulMukendi)  
+- Email: **mulmukendi@gmail.com**
+
+---
+
+## 🔗 Developer Summary (for CV/LinkedIn)
+> Built diverse projects across frontend, API, and systems programming: a React ATM app with full logic, a real-time weather app, and an Assembly program controlling a custom-designed circuit in Proteus.
