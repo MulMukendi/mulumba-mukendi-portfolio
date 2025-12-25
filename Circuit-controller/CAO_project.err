@@ -1,0 +1,24 @@
+Warning[205] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 25 : Found directive in column 1. (ORG)
+Warning[203] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 26 : Found opcode in column 1. (BSF)
+Warning[203] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 29 : Found opcode in column 1. (BSF)
+Message[302] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 29 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 30 : Found opcode in column 1. (BSF)
+Message[302] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 30 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 31 : Found opcode in column 1. (BSF)
+Message[302] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 31 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 32 : Found opcode in column 1. (BSF)
+Message[302] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 32 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 35 : Found opcode in column 1. (BCF)
+Message[302] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 35 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 36 : Found opcode in column 1. (BCF)
+Message[302] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 36 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 37 : Found opcode in column 1. (BCF)
+Message[302] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 37 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 38 : Found opcode in column 1. (BCF)
+Message[302] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 38 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 39 : Found opcode in column 1. (BCF)
+Message[302] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 39 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 40 : Found opcode in column 1. (BCF)
+Message[302] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 40 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 42 : Found opcode in column 1. (BCF)
+Warning[205] F:\CLOCK_SPEED_PROJECT\CAO_PROJECT.ASM 92 : Found directive in column 1. (END)
