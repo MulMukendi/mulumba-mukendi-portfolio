@@ -21,7 +21,8 @@ function Deposit({user, transactionFee, setPage, page, setUser}) {
                   try {
                          
                          if (Number.isNaN(amount)) throw new Error("Invalid amount");
-                         if (amount === 0) throw new Error("Can not withdraw $0.");
+                         if (amount === 0) throw new Error("Can not deposit $0.");
+                         if (amount < 10) throw new Error("Can not deposit under $10.");
 
                         const netDeposit = amount - transactionFee;
 
