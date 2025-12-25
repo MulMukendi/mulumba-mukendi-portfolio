@@ -17,7 +17,7 @@ I focus on creating applications that are functional, maintainable, and user-fri
 ## ⭐ Highlighted Projects
 
 ### 1. React ATM Application
-**Tech:** React, JavaScript, CSS
+**Tech:** React, JavaScript, Tailwind CSS
 
 A full-featured ATM simulation demonstrating advanced frontend logic and state management.
 
@@ -33,7 +33,7 @@ A full-featured ATM simulation demonstrating advanced frontend logic and state m
 ---
 
 ### 2. Weather Application
-**Tech:** JavaScript, REST API, HTML, CSS
+**Tech:** JavaScript, REST API, HTML, Tailwind CSS
 
 A dynamic weather app fetching real-time data from a public API and displaying it in a responsive interface.
 
@@ -82,5 +82,5 @@ MySQL, Apache Derby
 
 ---
 
-## 🔗 Developer Summary (for CV/LinkedIn)
+## 🔗 Developer Summary
 > Built diverse projects across frontend, API, and systems programming: a React ATM app with full logic, a real-time weather app, and an Assembly program controlling a custom-designed circuit in Proteus.
