@@ -1,7 +1,7 @@
 Advanced ATM App built with React: Fully interactive banking simulator with modular components, dynamic state management, input validation, and real-time transaction feedback. Sleek, user-friendly UI replacing old console prompts, showcasing modern frontend development skills.
 
 Author: Mulumba Mukendi
-Date: 2025
+Date: 25 December 2025
 
 What makes this version advanced
 
