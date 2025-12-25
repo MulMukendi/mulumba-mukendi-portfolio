@@ -1,0 +1,63 @@
+.outer-card{
+    width: 38rem;
+    height: 39rem;
+    border-radius: 1rem;
+    outline: 5px solid rgb(70, 70, 70)
+}
+
+.inner-card{
+    width: 90%;
+    height: 78%;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    place-self: center;
+    outline: 5px solid rgb(70, 70, 70)
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+}
+
+.card-svg-size{
+    height: 7rem;
+}
+
+.numbers{
+    width: 5rem;
+    margin: 0.25rem;
+    background-color: rgb(52, 63, 75);
+}
+
+.menuButton{
+    position: relative;
+    height: 10rem;
+    width: 9rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition:
+    box-shadow 0.2s ease,
+    transform 0.1s ease,
+    opacity 0.1s ease;
+}
+
+.menuButton:hover {
+  transform: translateY(-3px);
+}
+
+
+.menuButton:active {
+  transform: translateY(1px);
+  opacity: 0.9;
+  box-shadow:
+    0 6px 15px rgba(0, 0, 0, 0.6),
+    inset 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.backButton{
+    top: -1.5rem;
+    left: 0;
+}
+

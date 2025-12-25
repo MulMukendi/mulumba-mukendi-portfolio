@@ -1,0 +1,27 @@
+[                         
+         {
+            "name" : "muks",
+            "accountNumber": "9999",
+            "pinNo" : "111",
+            "balance" : 250
+        },
+        {
+            "name" : "shelds",
+            "accountNumber": "8888",
+            "pinNo" : "222",
+            "balance" : 200
+        },
+        {
+            "name" : "pads",
+            "accountNumber": "7777",
+            "pinNo" : "333",
+            "balance" : 230
+        },
+        {
+            "name" : "gids",
+            "accountNumber": "6666",
+            "pinNo" : "444",
+            "balance" : 300
+        }
+
+]
