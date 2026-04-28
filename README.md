@@ -1,85 +1,64 @@
-# Mulumba Mukendi 🚀
-**Full-Stack Developer | React & Next.js | Systems Programming**
+# Mulumba Mukendi 👨‍💻
 
----
+Computer Science Student | Building Real-World Software Projects
 
-## 👨‍💻 About Me
-I’m a Computer Science student based in South Africa with hands-on experience building real-world applications. My work spans **frontend development**, **API integration**, and **low-level systems programming**, giving me a strong foundation to tackle diverse technical challenges.
+## About Me
 
-I focus on creating applications that are functional, maintainable, and user-friendly, while applying best practices in **state management**, **error handling**, and **logic-driven UI**.
+I’m a final-year Computer Science student from South Africa who enjoys learning by building practical projects.
 
-- 🌱 Technologies: **JavaScript, React, Next.js, Assembly**
-- 🎯 Focus: Building scalable applications with robust frontend logic and backend integration
-- 💡 Interests: Problem-solving, system logic, and software–hardware interaction
+My experience includes web development with JavaScript and React, working with APIs, and university projects involving Assembly programming and digital circuits.
 
----
+I’m currently developing my front-end and back-end skills while building projects that strengthen my problem-solving ability and technical foundation.
 
-## ⭐ Highlighted Projects
+## Current Focus
 
-### 1. React ATM Application
-**Tech:** React, JavaScript, Tailwind CSS
+* JavaScript and React development
+* Learning Spring Boot and modern web development
+* Backend fundamentals and full-stack skills
+* System design fundamentals
 
-A full-featured ATM simulation demonstrating advanced frontend logic and state management.
+## Projects
 
-**Key Features:**
-- User authentication and validation
-- Deposit and withdrawal with transaction fees
-- Controlled inputs and immutable state updates
-- Error handling and success feedback
-- Clear navigation and user flow
+### Weather Application (Early JavaScript Project)
 
-**Skills Demonstrated:** Advanced React state management, props handling, real-world debugging and application logic.
+Built a weather app using JavaScript and a public API.
 
----
+* API data fetching
+* Search functionality
+* Dynamic weather display
+* Error handling
 
-### 2. Weather Application
-**Tech:** JavaScript, REST API, HTML, Tailwind CSS
+### React ATM Application
 
-A dynamic weather app fetching real-time data from a public API and displaying it in a responsive interface.
+Built an ATM simulation using React and JavaScript.
 
-**Key Features:**
-- Async data fetching from a public API
-- Input validation and error handling
-- Dynamic UI updates based on API responses
+* User login flow
+* Deposit and withdrawal logic
+* Validation and feedback messages
+* State management with React
 
-**Skills Demonstrated:** Asynchronous programming, API integration, frontend data handling, responsive UI.
 
----
+### Assembly Circuit Control Project
 
-### 3. Assembly Circuit Control Project
-**Tech:** Assembly, MPLAB, Proteus
+Designed a circuit in Proteus and controlled it with Assembly code.
 
-Designed a digital circuit in Proteus and wrote an Assembly program to control it, demonstrating low-level programming and system interaction.
+* Hardware logic control
+* Register and I/O operations
+* Software + hardware integration
 
-**Key Features:**
-- Custom circuit design in Proteus
-- Low-level hardware control using Assembly
-- Direct register and I/O manipulation
+## Tech Stack
 
-**Skills Demonstrated:** Systems-level programming, hardware-software integration, low-level logic, problem-solving.
+**Languages:** Java, JavaScript, HTML, CSS, Assembly
+**Frameworks:** React, Tailwind CSS, Next.js, Spring Boot (learning)
+**Tools:** Git, GitHub, VS Code, MPLAB, Proteus
+**Databases:** MySQL, Apache Derby, Firestore (Firebase)
 
----
+## Contact
 
-## 🛠 Tech Stack
+* GitHub: github.com/MulMukendi
+* Email: [mulmukendi@gmail.com](mailto:mulmukendi@gmail.com)
 
-**Languages:**  
-Java, JavaScript, HTML, CSS, Assembly
-
-**Frameworks & Libraries:**  
-React, Next.js (learning), Tailwind CSS
-
-**Tools:**  
-Git, GitHub, VS Code, MPLAB, Proteus
-
-**Databases:**  
-MySQL, Apache Derby
-
----
-
-## 📫 Contact
-- GitHub: [MulMukendi](https://github.com/MulMukendi)  
-- Email: **mulmukendi@gmail.com**
-
+I am open to learning opportunities, internships, and developer growth.
 ---
 
 ## 🔗 Developer Summary
