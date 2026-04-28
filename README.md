@@ -48,10 +48,10 @@ Designed a circuit in Proteus and controlled it with Assembly code.
 
 ## Tech Stack
 
-**Languages:** Java, JavaScript, HTML, CSS, Assembly
-**Frameworks:** React, Tailwind CSS, Next.js, Spring Boot (learning)
-**Tools:** Git, GitHub, VS Code, MPLAB, Proteus
-**Databases:** MySQL, Apache Derby, Firestore (Firebase)
+**Languages:** Java, JavaScript, HTML, CSS, Assembly  
+**Frameworks:** React, Tailwind CSS, Next.js, Spring Boot (learning)  
+**Tools:** Git, GitHub, VS Code, MPLAB, Proteus  
+**Databases:** MySQL, Apache Derby, Firestore (Firebase)  
 
 ## Contact
 
