@@ -5,6 +5,9 @@ import com.muks.usersystem.exceptions.EmailExistsException;
 import com.muks.usersystem.exceptions.UserNotFoundException;
 import com.muks.usersystem.exceptions.UsernameTakenException;
 import com.muks.usersystem.repository.UserRepository;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.cache.annotation.Caching;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -25,6 +28,13 @@ public class UserService {
 
 
 
+    @Caching( evict = {
+            @CacheEvict(value = "users", allEntries = true),
+            @CacheEvict(value = "numberOfUsers"),
+            @CacheEvict(value = "averageAge"),
+            @CacheEvict(value = "recentlyAddedUsers", allEntries = true ),
+            @CacheEvict(value = "createdToday")
+    })
     public User createUser(User user){
 
             if (userRepository.findByEmailIgnoreCase(user.getEmail()).isPresent()){
@@ -41,21 +51,21 @@ public class UserService {
             return userRepository.save(user);
     }
 
-
+    @Cacheable(value = "user", key = "#id")
     public User getUserById(Long id){
-
+        System.out.println("getUserById() executed"); //for testing purposes
         return userRepository.findById(id).
                 orElseThrow(() -> new UserNotFoundException("User not found."));
     }
 
-
+    @Cacheable("users")
     public List<User> getAllUsers(){
-
+        System.out.println("getAllUsers() executed"); //for testing purposes
         return userRepository.findAll();
     }
 
 
-
+    //for now no cache
     public List<User> searchByFirstName(String firstName){
         List<User> users = userRepository.findByFirstNameIgnoreCase(firstName);
         if (users.isEmpty()){
@@ -66,7 +76,14 @@ public class UserService {
     }
 
 
-
+    @Caching(evict = {
+            @CacheEvict(value = "users", allEntries = true),
+            @CacheEvict(value = "user", key = "#id"),
+            @CacheEvict(value = "numberOfUsers"),
+            @CacheEvict(value = "averageAge"),
+            @CacheEvict(value = "recentlyAddedUsers", allEntries = true ),
+            @CacheEvict(value = "createdToday")
+    })
     public void deleteUser(Long id) {
 
         User user = userRepository.findById(id)
@@ -76,7 +93,13 @@ public class UserService {
     }
 
 
+    @Caching(evict = {
+            @CacheEvict(value = "users", allEntries = true),
+            @CacheEvict(value = "user", key = "#id"),
+            @CacheEvict(value = "averageAge"),
+            @CacheEvict(value = "recentlyAddedUsers", allEntries = true ),
 
+    })
     public User updateUser(Long id, User updatedUser) {
         //find the person we want to update
         User existingUser = userRepository.findById(id)
@@ -109,21 +132,24 @@ public class UserService {
         return userRepository.save(existingUser);
     }
 
+    @Cacheable("numberOfUsers")
     public Integer numberOfUsers(){
 
         return Math.toIntExact(userRepository.count());             //total count of users
     }
 
+    @Cacheable("recentlyAddedUsers")
     public List<User> findTop3ByOrderByCreatedAtDesc(){
 
         return userRepository.findTop3ByOrderByCreatedAtDesc();     //most recently added users
     }
 
+    @Cacheable("averageAge")
     public Integer getAverageAge(){
 
         return userRepository.getAverageAge();                      //average age of users
     }
-
+    @Cacheable("createdToday")
     public Long countByCreatedAtBetween(){
         LocalDateTime startOfToday = LocalDate.now().atStartOfDay();
         LocalDateTime startOfTomorrow = startOfToday.plusDays(1);
