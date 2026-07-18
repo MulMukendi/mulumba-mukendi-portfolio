@@ -61,7 +61,7 @@ function AddUser() {
     };
 
     userApi.createUser(normalizedUser).then( (response) => {
-
+      console.log(response.data);
         navigateTo(`/users/${response.data.id}`);  
          /*redirect to users page after user creation, response.data.id is the id of the newly created user returned from the backend
         not the user you just created, that one has no id yet, the backend generates the id and returns it in the response*/

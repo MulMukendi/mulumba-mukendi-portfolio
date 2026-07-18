@@ -28,12 +28,12 @@ public class UserService {
 
 
 
-    @Caching( evict = {
+    @Caching(evict = {
             @CacheEvict(value = "users", allEntries = true),
-            @CacheEvict(value = "numberOfUsers"),
-            @CacheEvict(value = "averageAge"),
-            @CacheEvict(value = "recentlyAddedUsers", allEntries = true ),
-            @CacheEvict(value = "createdToday")
+            @CacheEvict(value = "numberOfUsers", allEntries = true),
+            @CacheEvict(value = "averageAge", allEntries = true),
+            @CacheEvict(value = "recentlyAddedUsers", allEntries = true),
+            @CacheEvict(value = "createdToday", allEntries = true)
     })
     public User createUser(User user){
 
@@ -79,10 +79,10 @@ public class UserService {
     @Caching(evict = {
             @CacheEvict(value = "users", allEntries = true),
             @CacheEvict(value = "user", key = "#id"),
-            @CacheEvict(value = "numberOfUsers"),
-            @CacheEvict(value = "averageAge"),
-            @CacheEvict(value = "recentlyAddedUsers", allEntries = true ),
-            @CacheEvict(value = "createdToday")
+            @CacheEvict(value = "numberOfUsers", allEntries = true),
+            @CacheEvict(value = "averageAge", allEntries = true),
+            @CacheEvict(value = "recentlyAddedUsers", allEntries = true),
+            @CacheEvict(value = "createdToday", allEntries = true)
     })
     public void deleteUser(Long id) {
 
@@ -96,9 +96,10 @@ public class UserService {
     @Caching(evict = {
             @CacheEvict(value = "users", allEntries = true),
             @CacheEvict(value = "user", key = "#id"),
-            @CacheEvict(value = "averageAge"),
-            @CacheEvict(value = "recentlyAddedUsers", allEntries = true ),
-
+            @CacheEvict(value = "numberOfUsers", allEntries = true),
+            @CacheEvict(value = "averageAge", allEntries = true),
+            @CacheEvict(value = "recentlyAddedUsers", allEntries = true),
+            @CacheEvict(value = "createdToday", allEntries = true)
     })
     public User updateUser(Long id, User updatedUser) {
         //find the person we want to update

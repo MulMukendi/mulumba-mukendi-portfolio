@@ -14,47 +14,28 @@ function Dashboard() {
   const [recentUsers, setRecentUsers] = useState([]);
   const navigate = useNavigate();
 
-  useEffect(() => {
-
-    userApi.getUserCount().then((response) => {
-      setTotalUsers(response.data);
-    }).catch((error) => {
-      console.error(error);
-    });
-    
-    
-
-  }, []);
-
-  useEffect(() => {
-
-        userApi.get3mostRecentUsers().then((response) => {
-            setRecentUsers(response.data);
-        }).catch((error) => {
-            console.error(error);
-        });
-
-  }, [recentUsers]);
-
     useEffect(() => {
- 
-        userApi.getAverageAge().then((response) => {
-            setAverageAge(response.data);
-        }).catch((error) => {
-            console.error(error);
-        });
+        loadDashboard();
+    }, []);
 
-  }, [recentUsers]);
+    function loadDashboard() {
 
-      useEffect(() => {
- 
-        userApi.getNewTodayCount().then((response) => {
-            setNewTodayCount(response.data);
-        }).catch((error) => {
-            console.error(error);
-        });
+        userApi.getUserCount()
+            .then((response) => setTotalUsers(response.data));
 
-  }, [newTodayCount]);
+        userApi.getAverageAge()
+            .then((response) => setAverageAge(response.data));
+
+        userApi.getNewTodayCount()
+            .then((response) => setNewTodayCount(response.data));
+
+        userApi.get3mostRecentUsers()
+            .then((response) => setRecentUsers(response.data));
+    }
+
+  
+
+
 
 
 
