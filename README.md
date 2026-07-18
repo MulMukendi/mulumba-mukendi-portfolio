@@ -1,65 +1,143 @@
-# Mulumba Mukendi 👨‍💻
+# Hi, I'm Mulumba Mukendi 👋
 
-Computer Science Student | Building Real-World Software Projects
+**Final-Year Computer Science Student | Full-Stack Java Developer | React Developer**
 
-## About Me
+I'm a final-year Computer Science student from South Africa who enjoys building real-world software that solves practical problems. My focus is on backend development with Spring Boot, modern frontend development with React, and designing clean, scalable applications.
 
-I’m a final-year Computer Science student from South Africa who enjoys learning by building practical projects.
+I believe the best way to learn is by building, so most of my time is spent creating projects that mirror real production applications while continuously improving my software engineering skills.
 
-My experience includes web development with JavaScript and React, working with APIs, and university projects involving Assembly programming and digital circuits.
-
-I’m currently developing my front-end and back-end skills while building projects that strengthen my problem-solving ability and technical foundation.
-
-## Current Focus
-
-* JavaScript and React development
-* Learning Spring Boot and modern web development
-* Backend fundamentals and full-stack skills
-* System design fundamentals
-
-## Projects
-
-### Weather Application (Early JavaScript Project)
-
-Built a weather app using JavaScript and a public API.
-
-* API data fetching
-* Search functionality
-* Dynamic weather display
-* Error handling
-
-### React ATM Application
-
-Built an ATM simulation using React and JavaScript.
-
-* User login flow
-* Deposit and withdrawal logic
-* Validation and feedback messages
-* State management with React
-
-
-### Assembly Circuit Control Project
-
-Designed a circuit in Proteus and controlled it with Assembly code.
-
-* Hardware logic control
-* Register and I/O operations
-* Software + hardware integration
-
-## Tech Stack
-
-**Languages:** Java, JavaScript, HTML, CSS, Assembly  
-**Frameworks:** React, Tailwind CSS, Next.js, Spring Boot (learning)  
-**Tools:** Git, GitHub, VS Code, MPLAB, Proteus  
-**Databases:** MySQL, Apache Derby, Firestore (Firebase)  
-
-## Contact
-
-* GitHub: github.com/MulMukendi
-* Email: [mulmukendi@gmail.com](mailto:mulmukendi@gmail.com)
-
-I am open to learning opportunities, internships, and developer growth.
 ---
 
-## 🔗 Developer Summary
-> Built diverse projects across frontend, API, and systems programming: a React ATM app with full logic, a real-time weather app, and an Assembly program controlling a custom-designed circuit in Proteus.
+## 🚀 Current Focus
+
+- Spring Boot & REST API development
+- React and modern frontend development
+- Backend architecture and system design
+- Caching with Spring Cache and Redis
+- SQL database design and optimization
+- Writing clean, maintainable code
+
+---
+
+# Featured Project
+
+## User Management System
+
+A full-stack CRUD application built to simulate a real-world user management platform.
+
+### Backend
+
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- Spring Cache (In-Memory)
+- RESTful API design
+- Global exception handling
+- Custom validation
+- Derived queries and custom JPQL queries
+
+### Frontend
+
+- React
+- React Router
+- Axios
+- Tailwind CSS
+
+### Features
+
+- Create users
+- View user profiles
+- Update users
+- Delete users
+- Search users
+- Dashboard with statistics
+- Recently added users
+- Average user age
+- Users added today
+- Client-side form validation
+- Backend validation
+- Cache frequently accessed data
+
+---
+
+# Previous Projects
+
+### React ATM Simulator
+
+A banking simulation built with React.
+
+- Deposit & withdrawal
+- Balance management
+- Input validation
+- React state management
+
+---
+
+### Assembly Hardware Project
+
+Designed and programmed digital circuits using Assembly and Proteus.
+
+- Assembly programming
+- Digital logic
+- Register manipulation
+- Hardware/software integration
+
+---
+
+# Tech Stack
+
+### Languages
+
+- Java
+- JavaScript
+- HTML
+- CSS
+- SQL
+- Assembly
+
+### Frameworks & Libraries
+
+- Spring Boot
+- Spring Data JPA
+- Next.js
+- React
+- Tailwind CSS
+
+### Databases
+
+- MySQL
+- Firebase Firestore
+- Apache Derby
+
+### Tools
+
+- Git
+- GitHub
+- IntelliJ IDEA
+- VS Code
+- Postman
+- Maven
+- Proteus
+- MPLAB
+
+---
+
+# Currently Learning
+
+- Redis
+- Spring Security
+- Docker
+- AWS
+- Microservices
+
+---
+
+# Contact
+
+**GitHub:** https://github.com/MulMukendi
+
+**Email:** mulmukendi@gmail.com
+
+---
+
+I'm always looking to improve as a software engineer and am open to internships, graduate opportunities, and collaborating on interesting projects.
