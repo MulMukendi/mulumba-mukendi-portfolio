@@ -2,13 +2,13 @@
 
 **Final-Year Computer Science Student | Full-Stack Java Developer | React Developer**
 
-I'm a final-year Computer Science student from South Africa who enjoys building real-world software that solves practical problems. My focus is on backend development with Spring Boot, modern frontend development with React, and designing clean, scalable applications.
+I'm a final-year Computer Science student from South Africa with a passion for building software that solves real-world problems. I enjoy developing scalable backend systems with Spring Boot, creating responsive user interfaces with React, and continuously expanding my knowledge of modern software engineering practices.
 
-I believe the best way to learn is by building, so most of my time is spent creating projects that mirror real production applications while continuously improving my software engineering skills.
+I believe the best way to grow as a developer is by building practical applications, so I regularly work on projects that strengthen my understanding of backend development, frontend development, databases, APIs, and system design.
 
 ---
 
-## 🚀 Current Focus
+# 🚀 Current Focus
 
 - Spring Boot & REST API development
 - React and modern frontend development
@@ -19,11 +19,11 @@ I believe the best way to learn is by building, so most of my time is spent crea
 
 ---
 
-# Featured Project
+# 🌟 Featured Project
 
 ## User Management System
 
-A full-stack CRUD application built to simulate a real-world user management platform.
+A full-stack CRUD application designed to simulate a real-world user management platform.
 
 ### Backend
 
@@ -31,6 +31,7 @@ A full-stack CRUD application built to simulate a real-world user management pla
 - Spring Data JPA
 - MySQL
 - Spring Cache (In-Memory)
+- Redis Caching
 - RESTful API design
 - Global exception handling
 - Custom validation
@@ -50,71 +51,115 @@ A full-stack CRUD application built to simulate a real-world user management pla
 - Update users
 - Delete users
 - Search users
-- Dashboard with statistics
+- Dashboard with user statistics
 - Recently added users
 - Average user age
-- Users added today
-- Client-side form validation
+- Users created today
+- Client-side validation
 - Backend validation
-- Cache frequently accessed data
+- Intelligent caching for frequently accessed data
 
 ---
 
-# Previous Projects
+# 📁 Previous Projects
 
-### React ATM Simulator
+## Weather Application
 
-A banking simulation built with React.
+Developed a weather application that retrieves and displays real-time weather data using external REST APIs. Implemented a multi-step API workflow by converting user-entered city names or city codes into geographic coordinates before requesting weather information. Managed asynchronous API requests to dynamically update the user interface and implemented input validation and error handling to provide meaningful feedback for invalid searches.
 
-- Deposit & withdrawal
-- Balance management
+### Technologies
+
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- REST APIs
+- Fetch API
+
+### Features
+
+- Real-time weather retrieval
+- Multi-step API integration
+- Dynamic UI updates
+- City name and city code search
 - Input validation
-- React state management
+- Error handling
 
 ---
 
-### Assembly Hardware Project
+## Advanced React ATM Simulator
 
-Designed and programmed digital circuits using Assembly and Proteus.
+A banking simulation built with React that demonstrates component-based architecture and React state management.
 
-- Assembly programming
-- Digital logic
+### Technologies
+
+- React
+- JavaScript (ES6)
+- HTML5
+- CSS3
+
+### Features
+
+- Deposit functionality
+- Withdrawal functionality
+- Real-time balance updates
+- Transaction validation
+- React Hooks
+- State management
+
+---
+
+## Circuit Controller
+
+Designed and programmed digital circuits using Assembly language and Proteus to simulate embedded hardware systems.
+
+### Technologies
+
+- Assembly
+- Proteus
+- MPLAB
+
+### Features
+
+- Digital logic design
 - Register manipulation
-- Hardware/software integration
+- Hardware and software integration
+- Circuit simulation
+- Microcontroller programming
 
 ---
 
-# Tech Stack
+# 💻 Tech Stack
 
-### Languages
+## Languages
 
 - Java
 - JavaScript
-- HTML
-- CSS
+- HTML5
+- CSS3
 - SQL
 - Assembly
 
-### Frameworks & Libraries
+## Frameworks & Libraries
 
 - Spring Boot
 - Spring Data JPA
-- Next.js
 - React
+- React Router
 - Tailwind CSS
+- Axios
 
-### Databases
+## Databases
 
 - MySQL
 - Firebase Firestore
 - Apache Derby
 
-### Tools
+## Tools
 
 - Git
 - GitHub
 - IntelliJ IDEA
-- VS Code
+- Visual Studio Code
 - Postman
 - Maven
 - Proteus
@@ -122,7 +167,7 @@ Designed and programmed digital circuits using Assembly and Proteus.
 
 ---
 
-# Currently Learning
+# 📚 Currently Learning
 
 - Redis
 - Spring Security
@@ -132,11 +177,11 @@ Designed and programmed digital circuits using Assembly and Proteus.
 
 ---
 
-# Contact
+# 📫 Contact
 
 **GitHub:** https://github.com/MulMukendi
 
-**Email:** mulmukendi@gmail.com
+**Email:** [mulmukendi@gmail.com](mailto:mulmukendi@gmail.com)
 
 ---
 
