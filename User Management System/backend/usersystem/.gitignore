@@ -34,3 +34,5 @@ build/
 
 ### DB & services Secrets ###
 src/main/resources/application-local.properties
+
+.env

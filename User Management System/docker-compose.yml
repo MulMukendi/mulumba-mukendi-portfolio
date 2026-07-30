@@ -1,6 +1,49 @@
 services:
   redis:
-    image: redis:latest
+    image: redis:7.4
     container_name: usersystem-redis
     ports:
       - "6379:6379"
+
+  mysql:
+    image: mysql:8.4
+    container_name: usersystem-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: usersystem
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+  backend:
+    build:
+      context: ./backend/usersystem
+    container_name: usersystem-backend
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql
+      - redis
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+
+  frontend:
+    build:
+      context: ./frontend/usersystem-ui
+    container_name: usersystem-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend/usersystem-ui:/app
+      - /app/node_modules
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+    depends_on:
+      - backend
+
+volumes:
+  mysql-data:
